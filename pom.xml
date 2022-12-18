@@ -11,9 +11,13 @@
 	<groupId>pl.convista</groupId>
 	<artifactId>demoScheduler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demoScheduler</name>
+    <packaging>pom</packaging>
+    <name>demoScheduler</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
+    <modules>
+        <module>schedulerBeans</module>
+    </modules>
+    <properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>

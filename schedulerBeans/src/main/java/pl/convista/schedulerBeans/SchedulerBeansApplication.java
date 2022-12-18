@@ -1,13 +1,13 @@
-package pl.convista.demoScheduler;
+package pl.convista.schedulerBeans;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoSchedulerApplication {
+public class SchedulerBeansApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoSchedulerApplication.class, args);
+		SpringApplication.run(SchedulerBeansApplication.class, args);
 	}
 
 }
